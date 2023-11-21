@@ -25,6 +25,13 @@ function calcular() {
   resultadoElement.appendChild(resultadoParagrafo);
 }
 
+ //botao de limpar
+function limpar() {
+  document.getElementById('peso').value = "";
+  document.getElementById('resultado').innerHTML = "";
+}
+//FIM CALCULADORA
+
 
 //ROTACAO DO ICONE DAS REFERENCIAS
 $(document).ready(function () {
